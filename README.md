@@ -49,7 +49,7 @@ This framework automates Web GUI and API test scenarios outlined in the assessme
  
 * Setup
 1. Clone the repository:  
-   `git clone https://github.com/yourusername/test-automation-assessment.git`
+   `git clone https://github.com/DeVTestEngineer/test-automation-assessment.git`
 2. Navigate to the project directory:  
    `cd test-automation-assessment`
 
