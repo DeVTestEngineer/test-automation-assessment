@@ -32,19 +32,14 @@ This framework automates Web GUI and API test scenarios outlined in the assessme
 * Maven for dependency management and build automation.
 -------------------------------------------------------------------------------------------------------------------------------------- 
  
- 🛠 Technology Stack 
----------------------------------------------------
-Component	                    Technology/Framework 
----------------------------------------------------
-Programming Language	                     Java 11 
----------------------------------------------------
-Build Tool	                            Maven 3.8+ 
----------------------------------------------------
-Web Automation	          Selenium WebDriver 4.10.0 
----------------------------------------------------
-API Testing	                     RestAssured 5.3.0 
----------------------------------------------------
-Reporting	                     ExtentReports 5.0.9 
----------------------------------------------------
-Browser Driver Management	   WebDriverManager 5.3.2 
-----------------------------------------------------
+🛠 Technology Stack
+
+| Component               | Technology/Framework       |
+|-------------------------|----------------------------|
+| Programming Language    | Java 11                    |
+| Build Tool              | Maven 3.8+                 |
+| Web Automation          | Selenium WebDriver 4.10.0  |
+| API Testing             | RestAssured 5.3.0          |
+| Reporting               | ExtentReports 5.1.0        |
+| Test Framework          | TestNG 7.8.0               |
+| Browser Driver Management | WebDriverManager 5.3.3   |
