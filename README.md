@@ -42,4 +42,38 @@ This framework automates Web GUI and API test scenarios outlined in the assessme
 | API Testing             | RestAssured 5.3.0          |
 | Reporting               | ExtentReports 5.1.0        |
 | Test Framework          | TestNG 7.8.0               |
-| Browser Driver Management | WebDriverManager 5.3.3   |
+| Browser Driver Management | WebDriverManager 5.3.3   | 
+------------------------------------------------------------------------------------------------------------------------------------------  
+Project structure 
+
+test-automation-assessment/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── pages/
+│   │   │   │   ├── GoogleSearchPage.java
+│   │   │   │   ├── HerokuAppMainPage.java
+│   │   │   │   ├── FileUploadPage.java
+│   │   │   │   ├── DynamicLoadingPage.java
+│   │   │   ├── utilities/
+│   │   │   │   ├── BaseTest.java
+│   │   │   │   ├── ConfigReader.java
+│   │   │   │   ├── ReportManager.java
+│   │   ├── resources/
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── tests/
+│   │   │   │   ├── GoogleSearchTest.java
+│   │   │   │   ├── FileUploadTest.java
+│   │   │   │   ├── DynamicLoadingTest.java
+│   │   │   │   ├── CatFactsAPITest.java
+│   │   ├── resources/
+│   │   │   ├── config.properties
+│   │   │   ├── images/
+│   │   │   │   ├── test-image.jpg
+├── target/
+│   ├── test-reports/
+│   │   ├── ExtentReport.html
+│   │   ├── screenshots/
+├── pom.xml
+├── README.md
