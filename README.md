@@ -54,26 +54,26 @@ This framework automates Web GUI and API test scenarios outlined in the assessme
    `cd test-automation-assessment`
 
 * Running Tests
-- **Run all tests**:  
+1. **Run all tests**:  
   `mvn clean test`
-- **Run specific test group**:  
+2. **Run specific test group**:  
   Update `testng.xml` to include/exclude test classes.
 
 * Test Data Configuration
-- Edit `src/test/resources/config.properties` to modify URLs, search terms, or file paths.
+1 - Edit `src/test/resources/config.properties` to modify URLs, search terms, or file paths.
 
 * Reports
-- Generated in `target/test-reports/ExtentReport.html`.  
-- Screenshots are attached for failed GUI tests.  
-- API response bodies are logged in the report.
+1 - Generated in `target/test-reports/ExtentReport.html`.
+2 - Screenshots are attached for failed GUI tests.  
+3 - API response bodies are logged in the report.
 
 * Project Structure
-- **Page Objects**: `src/main/java/pages/`  
-- **Test Classes**: `src/test/java/tests/`  
-- **Configuration**: `src/test/resources/config.properties`  
-- **Test Data**: `src/test/resources/images/`  
+1. **Page Objects**: `src/main/java/pages/`  
+2. **Test Classes**: `src/test/java/tests/`  
+3. **Configuration**: `src/test/resources/config.properties`  
+4. **Test Data**: `src/test/resources/images/`  
 
 * Framework Details
-- **Design Pattern**: Page Object Model (POM)  
-- **Reporting**: ExtentReports with screenshots and API response logging  
-- **External Data**: `config.properties` for URLs and dynamic values  
+1. **Design Pattern**: Page Object Model (POM)  
+2. **Reporting**: ExtentReports with screenshots and API response logging  
+3. **External Data**: `config.properties` for URLs and dynamic values  
