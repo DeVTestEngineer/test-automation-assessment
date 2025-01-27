@@ -16,7 +16,6 @@
 
 7 - Bonus Points Achieved
 
-8 - License
 -------------------------------------------------------------------------------------------------------------------------------------
 🚀 Project Overview 
 
@@ -35,17 +34,17 @@ This framework automates Web GUI and API test scenarios outlined in the assessme
  
  🛠 Technology Stack 
 ---------------------------------------------------
-Component	               Technology/Framework 
+Component	                    Technology/Framework 
 ---------------------------------------------------
-Programming Language	          Java 11 
+Programming Language	                     Java 11 
 ---------------------------------------------------
-Build Tool	                     Maven 3.8+ 
+Build Tool	                            Maven 3.8+ 
 ---------------------------------------------------
-Web Automation	       Selenium WebDriver 4.10.0 
+Web Automation	          Selenium WebDriver 4.10.0 
 ---------------------------------------------------
-API Testing	               RestAssured 5.3.0 
+API Testing	                     RestAssured 5.3.0 
 ---------------------------------------------------
-Reporting	               ExtentReports 5.0.9 
+Reporting	                     ExtentReports 5.0.9 
 ---------------------------------------------------
-Browser Driver Management	WebDriverManager 5.3.2 
+Browser Driver Management	   WebDriverManager 5.3.2 
 ----------------------------------------------------
